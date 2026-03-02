@@ -1,0 +1,78 @@
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.sprite {
+    background-image: url("../images/image.png");
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.engineers {
+    background-position: 0 0;
+}
+
+.speedsters {
+    background-position: -500px 0;
+}
+
+.hipsters {
+    background-position: 0 -500px;
+}
+
+.shadows {
+    background-position: -500px -500px;
+}
+
+[readonly]{
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+}
+
+a[href="https://www.google.com"]{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+[class *="ds"]{
+    background-color: yellow;
+}
+
+[id ~= "ds"]{
+    color: blue;
+    text-transform: uppercase;
+}
+
+[title^="blue"]{
+    border: 2px solid red;
+}
+
+[class|="heading"]{
+    text-decoration: underline;
+    color: purple;
+}
+
+[placeholder$="name"]{
+    border: 2px solid green;
+    background-color: blue;
+}
